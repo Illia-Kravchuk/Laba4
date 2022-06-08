@@ -1,0 +1,61 @@
+.chtotovashnoe {
+	text-align: center;
+	border: 1px solid black;
+
+}
+
+.calculatirius {
+	margin-left: 10%;
+	margin-right: auto;
+	margin-top: 50px;
+	grid-auto-columns: 100px;
+	grid-auto-rows: 100px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	display: grid;
+	width: 500px;
+	height: auto;
+	color: #efefef;
+	font-size: xx-large;
+
+
+}
+.boxes {
+	background: #616066;
+	border:1px solid #2f2e38;
+	text-align:	center;
+
+}
+.boxes_top {
+	background:#5f5e65; 
+}
+#box1{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	background: #53525a;
+	border-radius: 10px 10px 0 0;
+	font-size: 2.5em;
+	padding-left: 80%;
+	padding-top: 5%;
+	
+}
+#box2, #box3, #box4 {
+	background: #4e4c55;
+}
+#box5, #box9, #box13, #box17, #box20 {
+	background: #ff9f08;
+}
+#box18 {
+		grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 7;
+	grid-row-end: 8;
+	border-radius: 0 0 0 20px;
+}
+#box20 {
+	border-radius: 0 0 20px 0;
+}
+.boxes_text {
+	
+}
